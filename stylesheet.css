@@ -1,0 +1,135 @@
+
+
+body {
+    background-color: rgba(46, 46, 46, 0.913);
+    padding: 0;
+    margin: 0;
+ 
+
+}
+
+
+.btn {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(152, 0, 176, 0.929);
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 60px;
+    width: 140px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50px;
+    width: 70%;
+    left: 50%;
+    transform: translateX(+20%);
+}
+
+.navbar2 {
+    display: flex;
+    flex-direction: horizontal;
+    padding: 30px;
+    text-decoration: none;
+    background-color: rgba(152, 0, 176, 0.929);
+    text-align: center;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.logo {
+    margin: 20px;
+    padding: 10px;
+    color: rgba(152, 0, 176, 0.929);
+}
+
+
+.newButton {
+    background-color: #ff000000;
+    padding: 14px 20px;
+    display: inline-block;
+    margin: 7px 10px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px, 0px, 50px, 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+
+
+.newButton:hover {
+    background-color:rgba(255, 255, 255, 0.874);
+}
+
+.newButton:active {
+    background-color: #00ff08f5;
+}
+
+
+
+#buttonContainer {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 79px); /* Subtract the height of the header */
+    overflow: hidden; /* This prevents the buttons from going outside the container */
+    
+}
+
+.timer {
+    text-align: center;
+    top: 50%;
+    position: relative;
+    transform: translateY(+10%);
+    color: rgba(255, 255, 255, 0.929);
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.lightlogo {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.coins {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: rgba(255, 255, 255, 0.874);
+    left: 20%;
+    top: -22%;
+    transform: translate(+10%, +10%);
+}
+
+.coinsdiv {
+    display: flex;
+    flex-direction: horizontal;
+    top: 50%;
+    left: 50%;
+    transform: translate(+35%, +39%);
+}
+
+
+#container .newButton.newButtonRedHover:hover button {
+    color: red !important;
+}

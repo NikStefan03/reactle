@@ -1,0 +1,301 @@
+
+body {
+    background-color: rgba(46, 46, 46, 0.913);
+    padding: 0;
+    margin: 0;
+ 
+
+}
+
+.shoptitle {
+    text-align: center;
+    position: relative;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    height: 60px;
+    width: 140px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+    background-color: rgb(47, 47, 47);
+    border-radius: 50px;
+    width: 70%;
+    left: 50%;
+    transform: translateX(+20%);
+}
+
+.navbar2 {
+    display: flex;
+    flex-direction: horizontal;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
+    padding-left: 24px;
+    text-decoration: none;
+    background-color: rgba(152, 0, 176, 0.929);
+    text-align: center;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+
+.lightlogo {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.coins {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    color: rgba(255, 255, 255, 0.874);
+    left: 20%;
+    top: -20%;
+    transform: translate(+10%, +10%);
+}
+
+.coinsdiv {
+    display: flex;
+    flex-direction: horizontal;
+    top: 50%;
+    left: 50%;
+    transform: translate(+35%, +35%);
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column; /* Add this */
+    justify-content: center;
+    background-color: rgba(157, 157, 157, 0.082);
+    border-radius: 50px;
+    width: 70%;
+    height: 200vh;
+    left: 50%;
+    top: 10%;
+    transform: translate(+20%, +4%);
+}
+
+
+.buy {
+    position: relative;
+    margin-bottom: 10px;
+    background-color: rgba(152, 0, 176, 0.929);
+    border-radius: 50px;
+    width: 100px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid rgb(255, 255, 255);
+    align-self: center;
+}
+
+.column {
+    position: relative;
+    display: flex;
+    flex-direction: row; /* Change this */
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%; /* Change this */
+    top: 0%;
+    margin-bottom: 10px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.product1 {
+    background-color: rgba(71, 70, 70, 0.913);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column; /* Add this */
+    border-radius: 50px;
+    align-self: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.product2 {
+    background-color: rgba(0, 90, 255, 0.66);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column; /* Add this */
+    border-radius: 50px;
+    align-self: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.product3 {
+    background-color: rgba(255, 143, 0, 0.73);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column; /* Add this */
+    border-radius: 50px;
+    align-self: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.product4 {
+    background-color: rgba(255, 0, 0, 0.73);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column; /* Add this */
+    border-radius: 50px;
+    align-self: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.product5 {
+    background-color: rgba(255, 255, 255, 0.874);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column; /* Add this */
+    border-radius: 50px;
+    align-self: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.product6 {
+    background-color: rgba(255, 255, 255, 0.874);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column; /* Add this */
+    border-radius: 50px;
+    align-self: center;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    
+}
+
+.blackBackground1 {
+    background-color: rgb(47, 47, 47);
+    width: calc(40% - 30px);
+    height: 90%;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0px 0px 20px 5px rgba(46, 46, 46, 0.913);
+    border: 2px solid rgba(46, 46, 46, 0.913);
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blackBackground2 {
+    background-color: rgb(47, 47, 47);
+    width: calc(40% - 30px);
+    height: 90%;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0px 0px 20px 5px rgba(0, 90, 255, 0.66);
+    border: 2px solid rgba(0, 90, 255, 0.66);
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blackBackground3 {
+    background-color: rgb(47, 47, 47);
+    width: calc(40% - 30px);
+    height: 90%;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0px 0px 20px 5px rgba(255, 143, 0, 0.73);
+    border: 2px solid rgba(255, 143, 0, 0.73);
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blackBackground4 {
+    background-color: rgb(47, 47, 47);
+    width: calc(40% - 30px);
+    height: 90%;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0px 0px 20px 5px rgba(255, 0, 0, 0.73);
+    border: 2px solid rgba(255, 0, 0, 0.73);
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blackBackground5 {
+    background-color: rgb(47, 47, 47);
+    width: calc(40% - 30px);
+    height: 90%;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0px 0px 20px 5px rgba(152, 0, 176, 0.929);
+    border: 2px solid rgb(166, 1, 191);
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.blackBackground6 {
+    background-color: rgb(47, 47, 47);
+    width: calc(40% - 30px);
+    height: 90%;
+    border-radius: 50px;
+    position: relative;
+    box-shadow: 0px 0px 20px 5px rgba(152, 0, 176, 0.929);
+    border: 2px solid rgb(166, 1, 191);
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
